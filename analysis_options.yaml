@@ -1,0 +1,13 @@
+include: package:lints/recommended.yaml
+
+linter:
+  rules:
+    prefer_single_quotes: true
+    prefer_final_locals: true
+
+analyzer:
+  errors:
+    invalid_annotation_target: ignore
+
+formatter:
+  page_width: 80
